@@ -11,4 +11,9 @@ public class Mower {
     private char orientation;
     private String instructions;
 
+    public Mower(int x, int y, char orientation) {
+        this.x = x;
+        this.y = y;
+        this.orientation = orientation;
+    }
 }

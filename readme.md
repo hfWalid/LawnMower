@@ -18,10 +18,13 @@ NB: when executing the project, the output.txt file should be generated under sr
 
 ## Building and Deployment
 ### Build Instructions
-To build the project, make sure you have JDK 17 and Gradle installed. Then run the following command:
+To build the project, make sure you have JDK 17 and Gradle installed and that terminal pointing to root directory. Then run the following command:
 
 bash -> gradle clean
 bash -> gradle build
+bash -> gradle bootRun
+
+by executing this series of commands, an output.txt file should be generated under src/main/resources containing results of processing. 
 
 ### Running with Docker
 To run the application using Docker, follow these steps:

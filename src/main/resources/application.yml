@@ -2,3 +2,15 @@ spring:
   application:
     name: LawnMower
 
+logging:
+  level:
+    root: info
+
+management:
+  static:
+    constants:
+      job_name: mowItNowJob
+      step_name: mowItNowStep
+      file:
+        input-directory: src/main/resources/input.txt
+        output-directory: src/main/resources/output.txt
